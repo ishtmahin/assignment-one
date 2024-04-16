@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+/*Header related styles*/
+header{
+    background-color: #e5b2bd;
+    min-height: 200px;
+}
+
+.banner{
+    margin-right: 250px;
+    padding: 200px 250px;
+    background-image: url("../images/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-title{
+    font-size: 60px;
+    max-width: 500px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+.banner-description{
+    font-size: 20px;
+    color: #757575;
+    max-width: 700px;
+}
+
+.btn-primary{
+    background-color: #E55473;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
