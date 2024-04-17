@@ -128,4 +128,68 @@ header{
     display: block;
     margin: auto;
 }
-    
+
+/*Instagram Related Styles*/
+
+.instagram{
+    margin: 150px 250px;
+}
+
+.instagram img{
+    width: 24%;
+}
+
+.insta-container {
+    display: flex;
+    gap: 15px;
+}
+
+/*Latest deal realted styles*/
+
+.latest-deal{
+    margin: 150px 250px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-size: cover;
+    padding: 150px;
+}
+
+.latest-deal  form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.latest-deal input[type="email"]{
+    width: 700px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+/*Footer Related Styles*/
+
+footer{
+    background-color: #000000;
+    margin-top: 150px;
+    padding: 50px 250px;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.white{
+    color:#ffffff;
+}
+
+.footer-title{
+    font-size: 45px;
+    text-align: center;
+}
+
+.copy-right{
+    color:#757575;
+}
