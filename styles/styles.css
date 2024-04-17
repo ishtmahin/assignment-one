@@ -44,7 +44,7 @@ header{
 /*Featured styles*/
 
 .featured{
-    padding: 150px 250px;
+    padding: 50px 250px;
 }
 
 .section-title{
@@ -94,3 +94,38 @@ header{
     color: #000000;
     font-size: 20px;
 }
+
+.features{
+    margin: 150px 250px;
+    background-color: #28282845;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    border-radius: 10px;
+}
+
+.feature-colume img{
+    display: block;
+    margin: auto;
+}
+/*Styles for Deals*/
+.deals{
+    background: #dccacf;
+    padding: 150px 250px;
+    display: flex;
+    gap: 100px;
+}
+
+.pink{
+    color: #E55473;
+}
+
+.hot-deal{
+    padding: 100px 50px;
+}
+
+.hot-deal button{
+    display: block;
+    margin: auto;
+}
+    
